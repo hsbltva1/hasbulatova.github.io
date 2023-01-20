@@ -1,0 +1,69 @@
+.footer {
+  background-color: #2D2D2D;
+  padding: 68px 0 53px;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__about {
+  max-width: 415px;
+}
+.footer__about-title {
+  margin-bottom: 5px;
+}
+.footer__about-text {
+  font-size: 20px;
+  line-height: 30px;
+}
+.footer__info-title {
+  margin-bottom: 12px;
+}
+.footer__info-nav {
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.footer__contact-title {
+  margin-bottom: 18px;
+}
+.footer__contact-items {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.footer__contact-number, .footer__contact-mail {
+  position: relative;
+  padding-left: 25px;
+}
+.footer__contact-number::before {
+  content: url(../images/home/tel.svg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footer__contact-mail::before {
+  content: url(../images/home/mail.svg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footer__contact-social {
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+}
+
+@media (max-width: 830px) {
+  .footer {
+    padding: 30px 0px;
+  }
+  .footer__inner {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+  }
+}/*# sourceMappingURL=footer.css.map */
